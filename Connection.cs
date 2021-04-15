@@ -10,7 +10,7 @@ namespace Bbiblioo
     {
         public void connection()
         {
-            SqlConnection connexion = new SqlConnection(@"Data Source = NomBaseDeDonne; Server=LAPTOP-B05KADL6\BASEAFPA; Database=NomBaseDeDonne; User Id=sa; Password=Francktolosano06500");
+            SqlConnection connexion = new SqlConnection(@"Data Source = Bbiblio; Server=DESKTOP-AESM6JA\SQLTOLOSANO; Database=Bbiblio; User Id=sa; Password=Francktolosano06500");
             connexion.Open();
         }
     }
